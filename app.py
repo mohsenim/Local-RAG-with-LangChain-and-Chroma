@@ -8,7 +8,7 @@ from RAG import DocumentProcessor, RAGQueryProcessor
 from utils import copy_files_to_dir, empty_dir
 
 st.set_page_config(layout="wide")
-st.title("Local RAG - Query Your Documents Using ChatGPT")
+st.title("Local RAG - Query Your Documents")
 
 st.markdown(
     """

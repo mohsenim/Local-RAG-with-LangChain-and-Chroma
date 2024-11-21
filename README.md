@@ -1,6 +1,8 @@
-# Retrieval Augmented Generation (RAG) with LangChain, Chroma, and ChatGPT
+# Retrieval Augmented Generation (RAG)
 
 I found it tedious and time-consuming to search for information within my local files. So, I developed this project using **Retrieval Augmented Generation (RAG)** to simplify the process. By leveraging **LangChain**, **Chroma**, and **ChatGPT**, it allows users to query their local files with relevant document snippets provided as context.
+
+![screenshot](./fig/screenshot.png)
 
 ## File Formats
 I chose to allow uploading multiple file types, including **PDF**, **TXT**, and **DOCX** formats. These files are chunked into smaller sections, vectorized, and stored for efficient retrieval during queries.
@@ -17,7 +19,7 @@ pip install -r requirements.txt
 ## Running the App
 To start the app, simply use the following command:
 ```bash
-streamlit run src/rag_engine.py
+streamlit run app.py
 ```
 
 ## OpenAI API Key
